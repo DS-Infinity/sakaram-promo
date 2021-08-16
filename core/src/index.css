@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  background-image: url('./untitled.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.app__intro{
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 16%;
+}
+
+.btn-div{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.app__btn{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #19202B;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.app__nav{
+  height: 56px;
+  background-color: #19202B;
+  text-align: center;
+  padding-top: 16px;
+  color: #fff;
+}
+
+.power-intro-main{
+  background-color: #19202B;
+}
+
+.power__intro{
+  background-color: #19202B;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.power__flex{
+  display: flex;
+  height: 80vh;
+  margin-top: 30px;
+}
+
+.power__text{
+  text-align: center;
+  padding: 40px;
+  flex: 50;
+  font-size: 24px;
+  background-color: #19202B;
+  color: #fff;
+  padding-top: 14%;
+}
+
+.power__image{
+  flex: 50;
+}
+
+.power__image img{
+  height: 80vh;
+  width: 100%;
+}
+
+.aero{
+  background-color: #19202B;
+  padding-top: 80px;
+}
+
+.aero__flex{
+  display: flex;
+  padding-top: 70px;
+}
+
+.aero__intro{
+  color: #fff;
+  text-align: center;
+}
+
+.aero__text{
+  font-size: 24px;
+  color: #fff;
+  padding: 50px;
+  padding-top: 9%;
+
+
+}
+
+.aero__image img{
+  flex: 50;
+  height: 400px;
+  width: 600px;
+}
+
+.dash{
+  background-color: #19202B;
+  color: #fff;
+  height: 180vh;
+  text-align: center;
+  padding: 80px;
+}
+
+.dash img{
+  margin-top: 50px;
+}
+
+.extra-text{
+  color: #838383;
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
