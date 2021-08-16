@@ -1,3 +1,5 @@
+/* @import url("./TESLA.ttf"); */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -50,11 +52,17 @@ code {
 	border-radius: 3px;
 }
 
+@font-face {
+	font-family: tesla;
+	src: url("TESLA.ttf");
+}
+
 .app__nav {
 	height: 56px;
 	background-color: #19202b;
 	text-align: center;
-	padding-top: 16px;
+	padding-top: 20px;
+	font-family: tesla;
 	color: #fff;
 }
 
@@ -118,8 +126,8 @@ code {
 
 .aero__image img {
 	flex: 50;
-	height: 400px;
-	width: 600px;
+	height: 80vh;
+	width: 700px;
 }
 
 .dash {
@@ -141,4 +149,45 @@ code {
 	margin-top: 50px;
 	font-weight: 500;
 	font-size: 24px;
+}
+
+.buttons-flex {
+	display: flex;
+	background-color: #19202b;
+	text-align: center;
+	justify-content: center;
+	height: 50vh;
+	align-items: center;
+}
+
+.btn-1 {
+	background-color: #0e1025;
+	color: #fff;
+	padding: 16px;
+	border: none;
+	font-size: 20px;
+	margin: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.btn-2 {
+	background-color: #fff;
+	color: #0e1025;
+	border: none;
+	font-size: 20px;
+	padding: 16px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 10px;
+}
+
+.footer {
+	height: 60px;
+	background-color: #0e1025;
+	text-align: center;
+	font-weight: 200;
+	padding-top: 15px;
+	color: #fff;
+	font-size: 20px;
 }
